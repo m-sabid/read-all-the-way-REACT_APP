@@ -1,14 +1,15 @@
-import { useState } from 'react'
-import './App.css'
+import { useState } from "react";
+import "./App.css"
+import MainMenu from "./components/MainMenu/MainMenu";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1> <u> Hello World </u> </h1>
-    </>
-  )
+    <div className="App">
+      <MainMenu />
+    </div>
+  );
 }
 
-export default App
+export default App;
