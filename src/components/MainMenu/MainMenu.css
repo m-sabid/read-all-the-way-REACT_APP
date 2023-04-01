@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid rgba(128, 128, 128, 0.678);
+  border-bottom: 1.5px solid rgb(203, 183, 223);
   padding: 0 20px 20px 20px;
 }
 .profile {
@@ -15,4 +15,5 @@ nav {
 .profile > img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }

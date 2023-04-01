@@ -1,0 +1,46 @@
+[
+  {
+    "blog_title": "How to get your first job as a self-taught programmer 1",
+    "post_image": "https://images.unsplash.com/photo-1550439062-609e1531270e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "post_date": "Mar 14 (4 Days ago)",
+    "hash_tags": ["#beginners", "#programming"],
+    "read_time": 5,
+    "author_details": {
+      "author_name": "Mr. Raju",
+      "author_image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=848&q=80"
+    }
+  },
+  {
+    "blog_title": "How to get your first job as a self-taught programmer 2",
+    "post_image": "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=906&q=80",
+    "post_date": "Mar 14 (4 Days ago)",
+    "hash_tags": ["#beginners", "#programming"],
+    "read_time": 5,
+    "author_details": {
+      "author_name": "Mr. Raju",
+      "author_image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  },
+  {
+    "blog_title": "How to get your first job as a self-taught programmer 3",
+    "post_image": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    "post_date": "Mar 14 (4 Days ago)",
+    "hash_tags": ["#beginners", "#programming"],
+    "read_time": 5,
+    "author_details": {
+      "author_name": "Mr. Raju",
+      "author_image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+    }
+  },
+  {
+    "blog_title": "How to get your first job as a self-taught programmer 4",
+    "post_image": "https://plus.unsplash.com/premium_photo-1677094310918-cc302203b21c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+    "post_date": "Mar 14 (4 Days ago)",
+    "hash_tags": ["#beginners", "#programming"],
+    "read_time": 5,
+    "author_details": {
+      "author_name": "Mr. Raju",
+      "author_image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
+    }
+  }
+]

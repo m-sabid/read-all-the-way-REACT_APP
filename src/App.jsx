@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css"
+import MainContent from "./components/MainContent/MainContent";
 import MainMenu from "./components/MainMenu/MainMenu";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <MainMenu />
+      <MainContent />
     </div>
   );
 }
