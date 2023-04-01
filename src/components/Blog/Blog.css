@@ -1,0 +1,29 @@
+.blog{
+    text-align: center;
+    margin: 50px 0;
+    background-color: lightblue;
+    padding: 20px 0;
+}
+
+.blog-post{
+    background-color: aliceblue;
+    padding: 20px;
+    border: 3px solid rgba(128, 128, 128, 0.281);
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.title{
+    margin: 20px 0;
+}
+
+.post-ans{
+    font-size: 1.6rem;
+}
+.post-ans::first-letter{
+    font-size: 3rem;
+}
+.post-ans > span {
+    font-weight: bold;
+    color: blueviolet;
+}

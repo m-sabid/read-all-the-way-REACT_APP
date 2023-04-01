@@ -32,12 +32,9 @@ const MainContent = () => {
     if (!isBookmarked) {
       const newBookmarkedBlog = [...bookmarkedBlog, singleBlogData];
       setBookmarkedBlog(newBookmarkedBlog);
-
-      // Show added toast
-      toast.success("Blog post bookmarked!");
     } else {
       // Show already added toast
-      toast.error("Blog post already bookmarked!");
+      toast.error("You Have Already Bookmarked This Blog!");
       const newBookmarkedBlog = [...bookmarkedBlog, singleBlogData];
       setBookmarkedBlog(newBookmarkedBlog);
     }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css"
+import Blog from "./components/Blog/Blog";
 import MainContent from "./components/MainContent/MainContent";
 import MainMenu from "./components/MainMenu/MainMenu";
 
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <MainMenu />
       <MainContent />
+      <Blog />
     </div>
   );
 }
