@@ -1,0 +1,17 @@
+.bookmark{
+    position: sticky;
+    top: 110px;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.048);
+    padding: 10px;
+    border-radius: 5px;
+}
+.bookmark_blog_title{
+    margin: 10px 0;
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.bookmarked_blogs{
+    font-size: 1.8rem;
+}

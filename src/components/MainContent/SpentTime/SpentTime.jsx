@@ -1,14 +1,12 @@
-import { useState } from "react";
 import "./SpentTime.css";
 
-const SpentTime = () => {
-  const [spentTime, setSpentTime] = useState(0);
-
-  
+const SpentTime = (props) => {
+  const totalTime = props.spentTimeData?.map((dt) => dt.read_time);  
+  const total = totalTime.reduce((acc, curr) => acc + curr, 0);
 
   return (
     <>
-      <h2 className="spent_time_text">Spent Time On Read : {spentTime} min</h2>
+      <h2 className="spent_time_text">Spent Time On Read : {total} min</h2>
     </>
   );
 };
