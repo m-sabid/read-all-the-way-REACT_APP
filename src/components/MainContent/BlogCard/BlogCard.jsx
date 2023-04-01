@@ -1,9 +1,14 @@
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { addToDB } from "../../../utilities/fakedb";
 import "./BlogCard.css";
 
 const BlogCard = (props) => {
-  console.log("blogData", props);
+  //   console.log("blogData", props);
+
+  const handleClick = (id, spent_time) => {
+    addToDB(id, spent_time);
+  };
 
   return (
     <>
@@ -20,7 +25,10 @@ const BlogCard = (props) => {
                 <h3>{props.dt.post_date}</h3>
               </div>
             </div>
-            <button className="bookmark_button">
+            <button
+              className="bookmark_button"
+              onClick={() => handleClick(props.dt.id, props.dt.read_time)}
+            >
               {props.dt.read_time} Min Read{" "}
               <FontAwesomeIcon icon={faBookmark} />
             </button>
@@ -31,9 +39,7 @@ const BlogCard = (props) => {
             <span>{props.dt.hash_tags[0]}</span>{" "}
             <span>{props.dt.hash_tags[1]}</span>
           </p>
-          <button className="mark_read">
-            Mark as read
-          </button>
+          <button className="mark_read">Mark as read</button>
         </div>
         <hr />
       </div>

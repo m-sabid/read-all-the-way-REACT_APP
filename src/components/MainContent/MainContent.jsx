@@ -23,4 +23,11 @@ const MainContent = () => {
           ))}
         </div>
         <div className="side-container">
-          <SpentTime /
+          <SpentTime />
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default MainContent;
